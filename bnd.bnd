@@ -1,0 +1,12 @@
+Private-Package: com.marcdejonge.ipad.simulator
+Conditional-Package: com.marcdejonge*
+
+Bundle-Version: 1.0.0.${buildid}
+Bundle-Name: iPad MDM Simulator
+Bundle-Description: This utility can be used to test MDM functionality
+Bundle-Category: Utility
+
+-buildpath: com.marcdejonge.codec, osgi.core
+-testpath: junit__junit, org.hamcrest__hamcrest-core
+
+Main-Class: com.marcdejonge.ipad.simulator.Main
